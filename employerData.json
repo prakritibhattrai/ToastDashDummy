@@ -29,18 +29,7 @@
     "Performance Optimization",
     "Version Control (Git)"
   ],
-
-  "jobDetails": {
-    "jobTitle": "Frontend Developer",
-    "jobFamily": "Software Engineering",
-    "industry": "Technology",
-    "hoursOfWork": "40 hours/week",
-    "typeOfEmployment": "Full-time",
-    "seniorityLevel": "Mid-Level",
-    "jobDescription": "Develop and maintain web interfaces for scalable applications using React.js.",
-    "stakeholderEngagement": "Collaborates with design and backend teams."
-  },
-
+  
   "traitMatrix": [
     {
       "name": "Direct communication",
