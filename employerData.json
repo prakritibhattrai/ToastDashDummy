@@ -16,5 +16,30 @@
     "seniorityLevel": "Mid-Level",
     "jobDescription": "Develop and maintain web interfaces for scalable applications using React.js.",
     "stakeholderEngagement": "Collaborates with design and backend teams."
-  }
+  },
+  "skillsAndTraits": {
+    "toolsAndTechnologies": ["React.js", "Next.js", "JavaScript", "TypeScript", "Figma", "Jira"],
+    "topSkills": ["UI/UX Design", "State Management", "Cross-Browser Compatibility", "Performance Optimization", "Version Control (Git)"],
+    "topTraits": ["Attention to Detail", "Problem-Solving", "Collaboration", "Adaptability", "Creativity"],
+    "undesirableTraits": ["Lack of communication", "Inability to meet deadlines"]
+  },
+  "screeningQuestions": {
+    "nonNegotiableQuestions": [
+      "Do you have experience with React.js for at least 2 years?",
+      "Are you proficient in using Git for version control?",
+      "Can you work with TypeScript and JavaScript interchangeably?"
+    ],
+    "additionalQuestions": [
+      "What strategies do you use for optimizing frontend performance?",
+      "How do you ensure cross-browser compatibility?",
+      "Describe a time you collaborated with a backend team on a challenging project."
+    ]
+  },
+  "traitsMatrix": [
+    { "trait": "Attention to Detail", "description": "Consistently delivers accurate work." },
+    { "trait": "Problem-Solving", "description": "Quickly identifies and resolves issues." },
+    { "trait": "Collaboration", "description": "Works well in team environments." },
+    { "trait": "Adaptability", "description": "Handles changes and pivots effectively." },
+    { "trait": "Creativity", "description": "Innovative and thinks outside the box." }
+  ]
 }
