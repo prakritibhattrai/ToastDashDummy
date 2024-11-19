@@ -22,7 +22,7 @@
     }
   ],
 
-  "suggested_tools_Technologies": [
+  "suggestedToolsTechnologies": [
     "UI/UX Design",
     "State Management",
     "Cross-Browser Compatibility",
@@ -41,7 +41,7 @@
     "stakeholderEngagement": "Collaborates with design and backend teams."
   },
 
-  "trait_matrix": [
+  "traitMatrix": [
     {
       "name": "Direct communication",
       "description": "straightforward, direct, to the point, and forthright"
