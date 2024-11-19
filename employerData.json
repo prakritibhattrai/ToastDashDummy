@@ -1,13 +1,5 @@
 {
-  "employerDetails": {
-    "organizationName": "TechVision Corp",
-    "hiringManagerName": "Jane Doe",
-    "hiringManagerEmail": "jane.doe@techvision.com",
-    "hiringManagerPhone": "+1-555-123-4567",
-    "locationOfWork": "New York, USA",
-    "organizationAddress": "123 Tech Lane, New York, NY"
-  },
-  {"questions": [
+  "questions": [
     {
       "id": 1,
       "text": "What role are you looking to hire for?"
@@ -23,8 +15,21 @@
     {
       "id": 4,
       "text": "Choose the top five skills that are critical for the role."
+    },
+    {
+      "id": 5,
+      "text": "Choose the five least important skills that are critical for the role."
     }
-  ]},
+  ],
+
+  "suggested_tools_Technologies": [
+    "UI/UX Design",
+    "State Management",
+    "Cross-Browser Compatibility",
+    "Performance Optimization",
+    "Version Control (Git)"
+  ],
+
   "jobDetails": {
     "jobTitle": "Frontend Developer",
     "jobFamily": "Software Engineering",
@@ -35,11 +40,129 @@
     "jobDescription": "Develop and maintain web interfaces for scalable applications using React.js.",
     "stakeholderEngagement": "Collaborates with design and backend teams."
   },
-  "skillsAndTraits": {
-    "toolsAndTechnologies": ["React.js", "Next.js", "JavaScript", "TypeScript", "Figma", "Jira"],
-    "topSkills": ["UI/UX Design", "State Management", "Cross-Browser Compatibility", "Performance Optimization", "Version Control (Git)"],
-    "topTraits": ["Attention to Detail", "Problem-Solving", "Collaboration", "Adaptability", "Creativity"],
-    "undesirableTraits": ["Lack of communication", "Inability to meet deadlines"]
+
+  "trait_matrix": [
+    {
+      "name": "Direct communication",
+      "description": "straightforward, direct, to the point, and forthright"
+    },
+    {
+      "name": "Tactful communication",
+      "description": "state things in a respectful and diplomatic manner"
+    },
+    {
+      "name": "Certain of opinion",
+      "description": "feel confident in one's opinions"
+    },
+    {
+      "name": "Open to others' opinions",
+      "description": "reflect on many different viewpoints"
+    },
+    {
+      "name": "Seeks to improve self",
+      "description": "attempt to develop or better oneself"
+    },
+    {
+      "name": "Positive self-identity",
+      "description": "to like oneself, as they are presently."
+    },
+    {
+      "name": "Puts own needs first",
+      "description": "Prioritizes their goals by aligning their wants and needs first"
+    },
+    {
+      "name": "Puts others' needs first",
+      "description": "Prespond to others' needs and assist or support others' goals first before individual needs"
+    },
+    {
+      "name": "Fact-finding decision making",
+      "description": "logically examine facts and situations"
+    },
+    {
+      "name": "Intuition based decision making",
+      "description": "use hunches to help make decisions"
+    },
+    {
+      "name": "Self motivated",
+      "description": "The drive to achieve including taking initiative, wanting challenge, and being enthusiastic about goals"
+    },
+    {
+      "name": "Manages stress well",
+      "description": "Manages stress well - deal effectively with strain and difficulty when it occurs"
+    },
+    {
+      "name": "Persistence against work barriers",
+      "description": "Rbe tenacious despite encountering significant obstacles"
+    },
+    {
+      "name": "Experimenting against work barriers",
+      "description": "new things and new ways of doing things"
+    },
+    {
+      "name": "Organized work style",
+      "description": "place and maintain order in an environment or situation"
+    },
+    {
+      "name": "Flexible work style",
+      "description": "easily adapt to change"
+    },
+    {
+      "name": "Analyzing pitfalls",
+      "description": "scrutinize potential difficulties related to a plan or strategy"
+    },
+    {
+      "name": "Comfortable with uncertain outcomes",
+      "description": "feel at ease with business ventures that involve uncertainty"
+    },
+    {
+      "name": "Rule enforcing",
+      "description": "skillfully correct others when they are violating rules or performing poorly"
+    },
+    {
+      "name": "Friendly demeanor",
+      "description": "express positive feelings and affinity toward others"
+    },
+    {
+      "name": "Collaborative",
+      "description": "collaborate with others when making decisions"
+    },
+    {
+      "name": "Independent decision making",
+      "description": "the authority and the willingness to accept decision-making responsibility"
+    },
+    {
+      "name": "Optimistic",
+      "description": "believe the future will be positive"
+    }
+  ],
+
+  "skillsDesirableUndesirable": {
+    "topSkills": [
+      "Ambitious Benevolence",
+      "Analytical",
+      "Analyzes Pitfalls",
+      "Animals",
+      "Artistic",
+      "Assertive",
+      "Authoritarian",
+      "Authoritative",
+      "Authoritative Collaboration",
+      "Avoids Communication",
+      "Avoids Decisions",
+      "Benevolent Sacrifice"
+    ],
+    "undesirableSkills": [
+      "Lack of communication",
+      "Inability to meet deadlines",
+      "Avoids Decisions",
+      "Benevolent Sacrifice",
+      "Defensive",
+      "Defers Decisions",
+      "Diplomatic",
+      "Disinterested in Decisions",
+      "Doesn't Need Structure",
+      "Dogmatic"
+    ]
   },
   "screeningQuestions": {
     "nonNegotiableQuestions": [
@@ -52,12 +175,5 @@
       "How do you ensure cross-browser compatibility?",
       "Describe a time you collaborated with a backend team on a challenging project."
     ]
-  },
-  "traitsMatrix": [
-    { "trait": "Attention to Detail", "description": "Consistently delivers accurate work." },
-    { "trait": "Problem-Solving", "description": "Quickly identifies and resolves issues." },
-    { "trait": "Collaboration", "description": "Works well in team environments." },
-    { "trait": "Adaptability", "description": "Handles changes and pivots effectively." },
-    { "trait": "Creativity", "description": "Innovative and thinks outside the box." }
-  ]
+  }
 }
