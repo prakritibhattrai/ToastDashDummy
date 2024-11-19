@@ -1,0 +1,14 @@
+{
+  "idealCandidateProfile": {
+    "role": "Frontend Developer",
+    "location": "New York, USA",
+    "skills": ["UI/UX Design", "State Management", "Cross-Browser Compatibility", "Performance Optimization", "Version Control (Git)"],
+    "tools": ["React.js", "Next.js", "JavaScript", "TypeScript", "Figma", "Jira"],
+    "topTraits": ["Attention to Detail", "Problem-Solving", "Collaboration", "Adaptability", "Creativity"],
+    "screeningQuestions": [
+      "Do you have experience with React.js for at least 2 years?",
+      "Are you proficient in using Git for version control?",
+      "What strategies do you use for optimizing frontend performance?"
+    ]
+  }
+}
