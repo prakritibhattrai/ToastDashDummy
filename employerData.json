@@ -7,6 +7,24 @@
     "locationOfWork": "New York, USA",
     "organizationAddress": "123 Tech Lane, New York, NY"
   },
+  {"questions": [
+    {
+      "id": 1,
+      "text": "What role are you looking to hire for?"
+    },
+    {
+      "id": 2,
+      "text": "What tools and technologies are required on day 1?"
+    },
+    {
+      "id": 3,
+      "text": "What traits are most important for this role? (e.g., Detail-Oriented, Collaborative)"
+    },
+    {
+      "id": 4,
+      "text": "Choose the top five skills that are critical for the role."
+    }
+  ]},
   "jobDetails": {
     "jobTitle": "Frontend Developer",
     "jobFamily": "Software Engineering",
